@@ -1,0 +1,118 @@
+Player,Team,Age,Games,Completions,Attempts,Yards,Touchdowns,Interceptions,Passer Rating,Rush Attempts,Rush Yards,Rush TDs,QB Cluster,QB Style
+Tua Tagovailoa,MIA,25.0,17.0,388.0,560.0,4624.0,29.0,14.0,101.1,35.0,74.0,0.0,2,Scrambler
+Jared Goff,DET,29.0,17.0,407.0,605.0,4575.0,30.0,12.0,97.9,32.0,21.0,2.0,2,Scrambler
+Dak Prescott,DAL,30.0,17.0,410.0,590.0,4516.0,36.0,9.0,105.9,55.0,242.0,2.0,2,Scrambler
+Josh Allen,BUF,27.0,17.0,385.0,579.0,4306.0,29.0,18.0,92.2,111.0,524.0,15.0,2,Scrambler
+Brock Purdy,SFO,24.0,16.0,308.0,444.0,4280.0,31.0,11.0,113.0,39.0,144.0,2.0,2,Scrambler
+Patrick Mahomes,KAN,28.0,16.0,401.0,597.0,4183.0,27.0,14.0,92.6,75.0,389.0,0.0,2,Scrambler
+Jordan Love,GNB,25.0,17.0,372.0,579.0,4159.0,32.0,11.0,96.1,50.0,247.0,4.0,2,Scrambler
+C.J. Stroud,HOU,22.0,15.0,319.0,499.0,4108.0,23.0,5.0,100.8,39.0,167.0,3.0,2,Scrambler
+Baker Mayfield,TAM,28.0,17.0,364.0,566.0,4044.0,28.0,10.0,94.6,62.0,163.0,1.0,2,Scrambler
+Trevor Lawrence,JAX,24.0,16.0,370.0,564.0,4016.0,21.0,14.0,88.5,70.0,339.0,4.0,2,Scrambler
+Matthew Stafford,LAR,35.0,15.0,326.0,521.0,3965.0,24.0,11.0,92.5,21.0,65.0,0.0,2,Scrambler
+Sam Howell,WAS,23.0,17.0,388.0,612.0,3946.0,21.0,21.0,78.9,48.0,263.0,5.0,2,Scrambler
+Derek Carr,NOR,32.0,17.0,375.0,548.0,3878.0,25.0,8.0,97.7,32.0,40.0,0.0,2,Scrambler
+Jalen Hurts,PHI,25.0,17.0,352.0,538.0,3858.0,23.0,15.0,89.1,157.0,605.0,15.0,2,Scrambler
+Lamar Jackson,BAL,26.0,16.0,307.0,457.0,3678.0,24.0,7.0,102.7,148.0,821.0,5.0,2,Scrambler
+Geno Smith,SEA,33.0,15.0,323.0,499.0,3624.0,20.0,9.0,92.1,37.0,155.0,1.0,2,Scrambler
+Gardner Minshew II,IND,27.0,17.0,305.0,490.0,3305.0,15.0,9.0,84.6,34.0,100.0,3.0,2,Scrambler
+Justin Herbert,LAC,25.0,13.0,297.0,456.0,3134.0,20.0,7.0,93.2,52.0,228.0,3.0,2,Scrambler
+Russell Wilson,DEN,35.0,15.0,297.0,447.0,3070.0,26.0,8.0,98.0,80.0,341.0,3.0,2,Scrambler
+Bryce Young,CAR,22.0,16.0,315.0,527.0,2877.0,11.0,10.0,73.7,39.0,253.0,0.0,2,Scrambler
+Desmond Ridder,ATL,24.0,15.0,249.0,388.0,2836.0,12.0,12.0,83.4,53.0,193.0,5.0,2,Scrambler
+Justin Fields,CHI,24.0,13.0,227.0,370.0,2562.0,16.0,9.0,86.3,124.0,657.0,4.0,2,Scrambler
+Joshua Dobbs,2TM,28.0,13.0,262.0,417.0,2464.0,13.0,10.0,79.5,77.0,421.0,6.0,2,Scrambler
+Joshua Dobbs,ARI,28.0,8.0,167.0,266.0,1569.0,8.0,5.0,81.2,47.0,258.0,3.0,0,Balanced
+Joshua Dobbs,MIN,28.0,5.0,95.0,151.0,895.0,5.0,5.0,76.4,30.0,163.0,3.0,0,Balanced
+Kirk Cousins,MIN,35.0,8.0,216.0,311.0,2331.0,18.0,5.0,103.8,14.0,25.0,0.0,0,Balanced
+Joe Burrow,CIN,27.0,10.0,244.0,365.0,2309.0,15.0,6.0,91.0,31.0,88.0,0.0,0,Balanced
+Zach Wilson,NYJ,24.0,12.0,221.0,368.0,2271.0,8.0,7.0,77.2,36.0,211.0,0.0,0,Balanced
+Aidan O'Connell,LVR,25.0,11.0,213.0,343.0,2218.0,12.0,7.0,83.9,17.0,11.0,1.0,0,Balanced
+Mac Jones,NWE,25.0,11.0,224.0,345.0,2120.0,10.0,12.0,77.0,26.0,96.0,0.0,0,Balanced
+Kenny Pickett,PIT,25.0,12.0,201.0,324.0,2070.0,6.0,4.0,81.4,42.0,54.0,1.0,0,Balanced
+Jake Browning,CIN,27.0,9.0,171.0,243.0,1936.0,12.0,7.0,98.4,27.0,127.0,3.0,0,Balanced
+Will Levis,TEN,24.0,9.0,149.0,255.0,1808.0,8.0,4.0,84.2,25.0,57.0,1.0,0,Balanced
+Kyler Murray,ARI,26.0,8.0,176.0,268.0,1799.0,10.0,5.0,89.4,44.0,244.0,3.0,0,Balanced
+Joe Flacco,CLE,38.0,5.0,123.0,204.0,1616.0,13.0,8.0,90.2,9.0,2.0,0.0,0,Balanced
+Ryan Tannehill,TEN,35.0,10.0,149.0,230.0,1616.0,4.0,7.0,78.5,17.0,74.0,1.0,0,Balanced
+Tyrod Taylor,NYG,34.0,11.0,116.0,180.0,1341.0,5.0,3.0,89.1,38.0,197.0,0.0,0,Balanced
+Nick Mullens,MIN,28.0,5.0,100.0,148.0,1306.0,7.0,8.0,88.4,10.0,25.0,0.0,0,Balanced
+Bailey Zappe,NWE,24.0,10.0,127.0,212.0,1272.0,6.0,9.0,68.7,17.0,83.0,1.0,0,Balanced
+Jimmy Garoppolo,LVR,32.0,7.0,110.0,169.0,1205.0,7.0,9.0,77.7,20.0,39.0,0.0,0,Balanced
+Easton Stick,LAC,28.0,5.0,111.0,174.0,1129.0,3.0,1.0,85.6,27.0,144.0,1.0,0,Balanced
+Deshaun Watson,CLE,28.0,6.0,105.0,171.0,1115.0,7.0,4.0,84.3,26.0,142.0,1.0,0,Balanced
+Tommy DeVito,NYG,25.0,9.0,114.0,178.0,1101.0,8.0,3.0,89.2,36.0,195.0,1.0,0,Balanced
+Daniel Jones,NYG,26.0,6.0,108.0,160.0,909.0,2.0,6.0,70.5,40.0,206.0,1.0,0,Balanced
+Taylor Heinicke,ATL,30.0,5.0,74.0,136.0,890.0,5.0,4.0,74.7,15.0,124.0,1.0,0,Balanced
+Tyson Bagent,CHI,23.0,5.0,94.0,143.0,859.0,3.0,6.0,71.4,23.0,109.0,2.0,0,Balanced
+Trevor Siemian,NYJ,32.0,5.0,86.0,153.0,724.0,2.0,4.0,62.1,11.0,40.0,0.0,1,Pocket Passer
+Mason Rudolph,PIT,28.0,4.0,55.0,74.0,719.0,3.0,0.0,118.0,10.0,8.0,0.0,1,Pocket Passer
+P.J. Walker,CLE,28.0,6.0,54.0,111.0,674.0,1.0,5.0,52.2,13.0,30.0,0.0,1,Pocket Passer
+Mitchell Trubisky,PIT,29.0,5.0,67.0,107.0,632.0,4.0,5.0,71.9,16.0,54.0,2.0,0,Balanced
+Anthony Richardson,IND,21.0,4.0,50.0,84.0,577.0,3.0,1.0,87.3,25.0,136.0,4.0,0,Balanced
+Drew Lock,SEA,27.0,4.0,48.0,76.0,543.0,3.0,3.0,81.2,5.0,14.0,0.0,1,Pocket Passer
+Jarrett Stidham,DEN,27.0,3.0,40.0,66.0,496.0,2.0,1.0,87.7,9.0,8.0,0.0,1,Pocket Passer
+Dorian Thompson-Robinson,CLE,24.0,8.0,60.0,112.0,440.0,1.0,4.0,51.2,14.0,65.0,0.0,1,Pocket Passer
+Andy Dalton,CAR,36.0,3.0,34.0,58.0,361.0,2.0,0.0,88.4,3.0,12.0,0.0,1,Pocket Passer
+Tim Boyle,NYJ,29.0,3.0,48.0,77.0,360.0,1.0,4.0,56.2,4.0,5.0,0.0,1,Pocket Passer
+C.J. Beathard,JAX,30.0,7.0,40.0,53.0,349.0,1.0,0.0,98.7,8.0,35.0,0.0,1,Pocket Passer
+Sam Darnold,SFO,26.0,10.0,28.0,46.0,297.0,2.0,1.0,85.1,21.0,15.0,1.0,1,Pocket Passer
+Case Keenum,HOU,35.0,2.0,34.0,53.0,291.0,1.0,3.0,61.1,2.0,1.0,0.0,1,Pocket Passer
+Jameis Winston,NOR,29.0,7.0,25.0,47.0,264.0,2.0,3.0,57.4,5.0,-6.0,0.0,1,Pocket Passer
+Brian Hoyer,LVR,38.0,3.0,23.0,42.0,231.0,0.0,2.0,50.8,3.0,-3.0,0.0,1,Pocket Passer
+Jacoby Brissett,WAS,31.0,3.0,18.0,23.0,224.0,3.0,0.0,146.8,3.0,19.0,0.0,1,Pocket Passer
+Tyler Huntley,BAL,25.0,5.0,21.0,37.0,203.0,3.0,0.0,99.3,15.0,55.0,0.0,1,Pocket Passer
+Blaine Gabbert,KAN,34.0,2.0,18.0,35.0,185.0,0.0,3.0,31.2,7.0,45.0,0.0,1,Pocket Passer
+Davis Mills,HOU,25.0,6.0,18.0,39.0,173.0,2.0,0.0,76.1,2.0,9.0,0.0,1,Pocket Passer
+Brett Rypien,LAR,27.0,2.0,18.0,38.0,172.0,0.0,1.0,49.5,3.0,19.0,0.0,1,Pocket Passer
+Jaren Hall,MIN,25.0,3.0,13.0,20.0,168.0,0.0,1.0,70.4,6.0,14.0,0.0,1,Pocket Passer
+Jeff Driskel,CLE,30.0,1.0,13.0,26.0,166.0,2.0,2.0,63.9,7.0,33.0,0.0,1,Pocket Passer
+Marcus Mariota,PHI,30.0,3.0,15.0,23.0,164.0,1.0,1.0,82.5,8.0,52.0,0.0,1,Pocket Passer
+Carson Wentz,LAR,31.0,2.0,17.0,24.0,163.0,2.0,1.0,99.8,17.0,56.0,1.0,1,Pocket Passer
+Cooper Rush,DAL,30.0,7.0,18.0,24.0,144.0,0.0,1.0,72.2,12.0,-5.0,0.0,1,Pocket Passer
+Taysom Hill,NOR,33.0,16.0,6.0,11.0,83.0,1.0,0.0,109.3,0.0,0.0,0.0,1,Pocket Passer
+Mike White,MIA,28.0,6.0,5.0,6.0,74.0,1.0,1.0,118.1,8.0,-9.0,0.0,1,Pocket Passer
+Malik Willis,TEN,24.0,3.0,4.0,5.0,74.0,0.0,0.0,118.7,5.0,21.0,0.0,1,Pocket Passer
+Clayton Tune,ARI,24.0,7.0,12.0,21.0,62.0,0.0,2.0,22.6,8.0,30.0,1.0,1,Pocket Passer
+Keenan Allen,LAC,31.0,13.0,1.0,2.0,49.0,1.0,0.0,135.4,0.0,0.0,0.0,1,Pocket Passer
+Sean Clifford,GNB,25.0,2.0,1.0,1.0,37.0,0.0,0.0,118.7,3.0,-2.0,0.0,1,Pocket Passer
+Jalen Reeves-Maybin,DET,28.0,17.0,1.0,1.0,31.0,0.0,0.0,118.7,0.0,0.0,0.0,1,Pocket Passer
+Braden Mann,PHI,26.0,15.0,1.0,1.0,28.0,0.0,0.0,118.7,0.0,0.0,0.0,1,Pocket Passer
+Logan Woodside,ATL,28.0,1.0,3.0,4.0,27.0,0.0,1.0,53.1,1.0,6.0,0.0,1,Pocket Passer
+Drake London,ATL,22.0,16.0,1.0,1.0,22.0,0.0,0.0,118.7,0.0,0.0,0.0,1,Pocket Passer
+A.J. McCarron,CIN,33.0,2.0,4.0,5.0,19.0,0.0,0.0,82.5,0.0,0.0,0.0,1,Pocket Passer
+Thomas Morstead,NYJ,37.0,17.0,1.0,1.0,18.0,0.0,0.0,118.7,0.0,0.0,0.0,1,Pocket Passer
+Kenneth Gainwell,PHI,24.0,16.0,1.0,1.0,17.0,0.0,0.0,118.7,0.0,0.0,0.0,1,Pocket Passer
+Derrick Henry,TEN,29.0,17.0,2.0,3.0,14.0,2.0,0.0,116.7,0.0,0.0,0.0,1,Pocket Passer
+Dontayvion Wicks,GNB,22.0,15.0,1.0,1.0,14.0,0.0,0.0,118.7,0.0,0.0,0.0,1,Pocket Passer
+Logan Cooke,JAX,28.0,17.0,1.0,1.0,13.0,0.0,0.0,118.7,0.0,0.0,0.0,1,Pocket Passer
+Jakobi Meyers,LVR,27.0,16.0,2.0,3.0,12.0,1.0,0.0,113.9,0.0,0.0,0.0,1,Pocket Passer
+Tommy Townsend,KAN,27.0,17.0,1.0,1.0,11.0,0.0,0.0,112.5,0.0,0.0,0.0,1,Pocket Passer
+Johnny Hekker,CAR,33.0,17.0,1.0,1.0,7.0,0.0,0.0,95.8,0.0,0.0,0.0,1,Pocket Passer
+Devin Singletary,HOU,26.0,17.0,1.0,1.0,6.0,1.0,0.0,131.2,0.0,0.0,0.0,1,Pocket Passer
+Dyami Brown,WAS,24.0,17.0,1.0,1.0,4.0,0.0,0.0,83.3,0.0,0.0,0.0,1,Pocket Passer
+Jerick McKinnon,KAN,31.0,12.0,1.0,1.0,4.0,1.0,0.0,122.9,0.0,0.0,0.0,1,Pocket Passer
+De'Von Achane,MIA,22.0,11.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Cam Akers,MIN,24.0,6.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Tyler Boyd,CIN,29.0,17.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1,Pocket Passer
+Parris Campbell,NYG,26.0,12.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Malik Cunningham,NWE,25.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+DeeJay Dallas,SEA,25.0,17.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Tank Dell,HOU,24.0,11.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Chris Godwin,TAM,27.0,17.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+Connor Heyward,PIT,24.0,17.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+DeAndre Hopkins,TEN,31.0,17.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+Tanner Hudson,CIN,29.0,12.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Josh Jacobs,LVR,25.0,13.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Justin Jefferson,MIN,24.0,10.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+Nathan Peterman,CHI,29.0,2.0,0.0,0.0,0.0,0.0,0.0,,2.0,-4.0,0.0,1,Pocket Passer
+Aaron Rodgers,NYJ,40.0,1.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+Deebo Samuel,SFO,27.0,15.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+Jonnu Smith,ATL,28.0,17.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+Amon-Ra St. Brown,DET,24.0,16.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Kadarius Toney,KAN,24.0,13.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+Kyle Trask,TAM,25.0,2.0,0.0,1.0,0.0,0.0,0.0,39.6,1.0,-1.0,0.0,1,Pocket Passer
+Cedrick Wilson Jr.,MIA,28.0,15.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,1,Pocket Passer
+Garrett Wilson,NYJ,23.0,17.0,0.0,1.0,0.0,0.0,0.0,39.6,0.0,0.0,0.0,1,Pocket Passer
+Christian Kirk,JAX,27.0,12.0,1.0,2.0,-1.0,0.0,0.0,56.2,0.0,0.0,0.0,1,Pocket Passer
+Ja'Marr Chase,CIN,23.0,16.0,1.0,1.0,-7.0,0.0,0.0,79.2,0.0,0.0,0.0,1,Pocket Passer

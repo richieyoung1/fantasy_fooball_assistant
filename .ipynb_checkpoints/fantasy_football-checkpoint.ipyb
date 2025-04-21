@@ -1,0 +1,37 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.pipeline import make_pipeline
+from sklearn.compose import ColumnTransformer
+import joblib
+
+# Load CSV
+df = pd.read_csv("players.csv")
+
+# Drop rows missing key values
+df = df.dropna(subset=["PPG", "Proj ROS", "Rank", "Pos"])
+X = df[["PPG", "Proj ROS", "Rank", "Pos"]]
+y = df["PPG"] * 4 + df["Proj ROS"] * 0.2 - df["Rank"]  # Estimate trade value as label (temporary)
+
+# Encode position
+preprocessor = ColumnTransformer(
+    transformers=[
+        ("pos", OneHotEncoder(handle_unknown="ignore"), ["Pos"])
+    ],
+    remainder="passthrough"
+)
+model = make_pipeline(
+    preprocessor,
+    RandomForestRegressor(n_estimators=100, random_state=42)
+)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model.fit(X_train, y_train)
+
+print(f"✅ Model trained. Score: {model.score(X_test, y_test):.2f}")
+joblib.dump(model, "models/trade_value_model.pkl")
+print("📦 Model saved to models/trade_value_model.pkl")
+df["Predicted Trade Value"] = model.predict(X)
+df[["Player", "Pos", "PPG", "Proj ROS", "Rank", "Predicted Trade Value"]].head(10)
