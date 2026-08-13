@@ -2,6 +2,9 @@ import pandas as pd
 import joblib
 import os
 import numpy as np
+import json
+
+from feature_engineering import add_derived_features
 
 POSITIONS = ['QB', 'RB', 'WR', 'TE']
 DATA_YEAR_FOR_PREDICTION = 2024
@@ -86,7 +89,15 @@ for pos in POSITIONS:
             continue
 
         model = joblib.load(model_path)
-        y_pred = model.predict(X)
+        metadata_path = model_path.replace("_model.pkl", "_metadata.json")
+        if os.path.exists(metadata_path):
+            with open(metadata_path, encoding="utf-8") as metadata_file:
+                feature_names = json.load(metadata_file)["features"]
+            enriched = add_derived_features(df, pos)
+            X_for_model = enriched[feature_names]
+        else:
+            X_for_model = X
+        y_pred = model.predict(X_for_model)
         if stat == 'Games':
             y_pred = np.clip(np.round(y_pred), 0, 17).astype(int)
         elif 'TD' in stat or stat == 'Interceptions':

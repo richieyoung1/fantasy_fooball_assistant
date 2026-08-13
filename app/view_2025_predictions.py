@@ -3,6 +3,8 @@ from tkinter import ttk
 import pandas as pd
 import os
 
+from scoring import DEFAULT_SCORING, SLIDER_RANGES, calculate_fantasy_points
+
 PREDICTION_FILES = {
     "QB": "qb_2025_predictions.csv",
     "RB": "rb_2025_predictions.csv",
@@ -16,10 +18,13 @@ def load_prediction_data(position):
         return pd.DataFrame()
     df = pd.read_csv(filename)
 
-    # Only keep columns that are predicted stats
-    predicted_cols = [col for col in df.columns if col.startswith("Predicted_")]
-    if 'Player' in df.columns:
-        predicted_cols.insert(0, 'Player')  # Keep Player name at the front
+    scoring = {stat: variable.get() for stat, variable in scoring_vars.items()}
+    df["Fantasy Points (custom)"] = calculate_fantasy_points(df, scoring)
+    predicted_cols = [col for col in df.columns if col.lower().startswith("predicted_")]
+    player_column = next((col for col in df.columns if col.lower() == "player"), None)
+    if player_column:
+        predicted_cols.insert(0, player_column)
+    predicted_cols.append("Fantasy Points (custom)")
     return df[predicted_cols]
 
 def update_table(*args):
@@ -56,12 +61,27 @@ def sort_column(col, reverse):
 # --- GUI Setup ---
 root = tk.Tk()
 root.title("2025 Fantasy Predictions Viewer")
-root.geometry("1000x600")
+root.geometry("1200x750")
+
+controls = ttk.LabelFrame(root, text="Custom fantasy scoring (points per event)")
+controls.pack(fill="x", padx=10, pady=8)
+scoring_vars = {}
+for index, (stat, default) in enumerate(DEFAULT_SCORING.items()):
+    minimum, maximum, resolution = SLIDER_RANGES[stat]
+    variable = tk.DoubleVar(value=default)
+    scoring_vars[stat] = variable
+    group = ttk.Frame(controls)
+    group.grid(row=index // 4, column=index % 4, padx=8, pady=4, sticky="ew")
+    ttk.Label(group, text=stat).pack(anchor="w")
+    tk.Scale(group, from_=minimum, to=maximum, resolution=resolution, orient="horizontal",
+             variable=variable, length=240, command=lambda _value: update_table()).pack()
+for column in range(4):
+    controls.columnconfigure(column, weight=1)
 
 # Dropdown to choose position
 position_var = tk.StringVar(value="QB")
 position_menu = ttk.OptionMenu(root, position_var, "QB", *PREDICTION_FILES.keys(), command=update_table)
-position_menu.pack(pady=10)
+position_menu.pack(pady=6)
 
 # Treeview for table
 tree = ttk.Treeview(root, show="headings")
